@@ -44,6 +44,7 @@
   </div>
 
   <script>
+    //TEST TEST
     function debounce(func, wait = 20, immediate = true) {
       var timeout;
       return function() {
@@ -58,6 +59,7 @@
         if (callNow) func.apply(context, args);
       };
     };
+    //TEST TEST
 
     const sliderImages = document.querySelectorAll('.slide-in');
 
@@ -76,7 +78,7 @@
         }
       });
     }
-
+//TEST TEST
     window.addEventListener('scroll', debounce(checkSlide));
 
   </script>
